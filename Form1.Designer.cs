@@ -31,11 +31,11 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Minecraft指令生成器));
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.功能 = new System.Windows.Forms.ToolStripMenuItem();
-            this.工具 = new System.Windows.Forms.ToolStripMenuItem();
             this.開啟主選單 = new System.Windows.Forms.ToolStripMenuItem();
             this.選項 = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
             this.關閉 = new System.Windows.Forms.ToolStripMenuItem();
+            this.工具 = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -57,11 +57,6 @@
             this.toolStripSeparator1,
             this.關閉});
             this.功能.Name = "功能";
-            // 
-            // 工具
-            // 
-            resources.ApplyResources(this.工具, "工具");
-            this.工具.Name = "工具";
             // 
             // 開啟主選單
             // 
@@ -86,13 +81,19 @@
             this.關閉.Name = "關閉";
             this.關閉.Click += new System.EventHandler(this.關閉_Click);
             // 
+            // 工具
+            // 
+            resources.ApplyResources(this.工具, "工具");
+            this.工具.Name = "工具";
+            // 
             // Minecraft指令生成器
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ControlBox = false;
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "Minecraft指令生成器";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
