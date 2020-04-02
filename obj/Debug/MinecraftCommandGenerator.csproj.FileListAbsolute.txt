@@ -1,0 +1,13 @@
+C:\Users\雪糕\OneDrive\桌面\夜雲工作室\Project\MinecraftCommandGenerator\bin\Debug\MinecraftCommandGenerator.exe.config
+C:\Users\雪糕\OneDrive\桌面\夜雲工作室\Project\MinecraftCommandGenerator\bin\Debug\MinecraftCommandGenerator.exe
+C:\Users\雪糕\OneDrive\桌面\夜雲工作室\Project\MinecraftCommandGenerator\bin\Debug\MinecraftCommandGenerator.pdb
+C:\Users\雪糕\OneDrive\桌面\夜雲工作室\Project\MinecraftCommandGenerator\obj\Debug\MinecraftCommandGenerator.csprojAssemblyReference.cache
+C:\Users\雪糕\OneDrive\桌面\夜雲工作室\Project\MinecraftCommandGenerator\obj\Debug\MinecraftCommandGenerator.Properties.Resources.resources
+C:\Users\雪糕\OneDrive\桌面\夜雲工作室\Project\MinecraftCommandGenerator\obj\Debug\MinecraftCommandGenerator.csproj.GenerateResource.cache
+C:\Users\雪糕\OneDrive\桌面\夜雲工作室\Project\MinecraftCommandGenerator\obj\Debug\MinecraftCommandGenerator.csproj.CoreCompileInputs.cache
+C:\Users\雪糕\OneDrive\桌面\夜雲工作室\Project\MinecraftCommandGenerator\obj\Debug\MinecraftCommandGenerator.exe
+C:\Users\雪糕\OneDrive\桌面\夜雲工作室\Project\MinecraftCommandGenerator\obj\Debug\MinecraftCommandGenerator.pdb
+C:\Users\雪糕\OneDrive\桌面\夜雲工作室\Project\MinecraftCommandGenerator\bin\Debug\zh-Hant\MinecraftCommandGenerator.resources.dll
+C:\Users\雪糕\OneDrive\桌面\夜雲工作室\Project\MinecraftCommandGenerator\obj\Debug\MinecraftCommandGenerator.Minecraft指令生成器.resources
+C:\Users\雪糕\OneDrive\桌面\夜雲工作室\Project\MinecraftCommandGenerator\obj\Debug\MinecraftCommandGenerator.Minecraft指令生成器.zh-Hant.resources
+C:\Users\雪糕\OneDrive\桌面\夜雲工作室\Project\MinecraftCommandGenerator\obj\Debug\zh-Hant\MinecraftCommandGenerator.resources.dll
