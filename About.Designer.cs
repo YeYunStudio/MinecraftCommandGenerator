@@ -31,11 +31,11 @@
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.功能ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.開啟主選單ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.工具ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.關於ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.選項ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
             this.關閉視窗ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.工具ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.關於ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -48,7 +48,7 @@
             this.關於ToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(782, 27);
+            this.menuStrip1.Size = new System.Drawing.Size(782, 28);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -60,32 +60,24 @@
             this.toolStripSeparator1,
             this.關閉視窗ToolStripMenuItem});
             this.功能ToolStripMenuItem.Name = "功能ToolStripMenuItem";
-            this.功能ToolStripMenuItem.Size = new System.Drawing.Size(53, 23);
+            this.功能ToolStripMenuItem.Size = new System.Drawing.Size(53, 24);
             this.功能ToolStripMenuItem.Text = "功能";
             // 
             // 開啟主選單ToolStripMenuItem
             // 
             this.開啟主選單ToolStripMenuItem.Name = "開啟主選單ToolStripMenuItem";
+            this.開啟主選單ToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.E)));
             this.開啟主選單ToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.開啟主選單ToolStripMenuItem.Text = "開啟主選單";
-            // 
-            // 工具ToolStripMenuItem
-            // 
-            this.工具ToolStripMenuItem.Name = "工具ToolStripMenuItem";
-            this.工具ToolStripMenuItem.Size = new System.Drawing.Size(53, 23);
-            this.工具ToolStripMenuItem.Text = "工具";
-            // 
-            // 關於ToolStripMenuItem
-            // 
-            this.關於ToolStripMenuItem.Name = "關於ToolStripMenuItem";
-            this.關於ToolStripMenuItem.Size = new System.Drawing.Size(53, 23);
-            this.關於ToolStripMenuItem.Text = "關於";
             // 
             // 選項ToolStripMenuItem
             // 
             this.選項ToolStripMenuItem.Name = "選項ToolStripMenuItem";
+            this.選項ToolStripMenuItem.ShortcutKeyDisplayString = "Ctrl+,";
+            this.選項ToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Oemcomma)));
             this.選項ToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.選項ToolStripMenuItem.Text = "選項";
+            this.選項ToolStripMenuItem.Click += new System.EventHandler(this.選項ToolStripMenuItem_Click);
             // 
             // toolStripSeparator1
             // 
@@ -95,8 +87,23 @@
             // 關閉視窗ToolStripMenuItem
             // 
             this.關閉視窗ToolStripMenuItem.Name = "關閉視窗ToolStripMenuItem";
+            this.關閉視窗ToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.X)));
             this.關閉視窗ToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.關閉視窗ToolStripMenuItem.Text = "關閉視窗";
+            this.關閉視窗ToolStripMenuItem.Click += new System.EventHandler(this.關閉視窗ToolStripMenuItem_Click);
+            // 
+            // 工具ToolStripMenuItem
+            // 
+            this.工具ToolStripMenuItem.Name = "工具ToolStripMenuItem";
+            this.工具ToolStripMenuItem.Size = new System.Drawing.Size(53, 23);
+            this.工具ToolStripMenuItem.Text = "工具";
+            // 
+            // 關於ToolStripMenuItem
+            // 
+            this.關於ToolStripMenuItem.Enabled = false;
+            this.關於ToolStripMenuItem.Name = "關於ToolStripMenuItem";
+            this.關於ToolStripMenuItem.Size = new System.Drawing.Size(53, 24);
+            this.關於ToolStripMenuItem.Text = "關於";
             // 
             // About
             // 

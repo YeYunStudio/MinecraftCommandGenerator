@@ -11,3 +11,4 @@ C:\Users\雪糕\OneDrive\桌面\夜雲工作室\Project\MinecraftCommandGenerato
 C:\Users\雪糕\OneDrive\桌面\夜雲工作室\Project\MinecraftCommandGenerator\obj\Debug\MinecraftCommandGenerator.Minecraft指令生成器.resources
 C:\Users\雪糕\OneDrive\桌面\夜雲工作室\Project\MinecraftCommandGenerator\obj\Debug\MinecraftCommandGenerator.Minecraft指令生成器.zh-Hant.resources
 C:\Users\雪糕\OneDrive\桌面\夜雲工作室\Project\MinecraftCommandGenerator\obj\Debug\zh-Hant\MinecraftCommandGenerator.resources.dll
+C:\Users\雪糕\OneDrive\桌面\夜雲工作室\Project\MinecraftCommandGenerator\obj\Debug\MinecraftCommandGenerator.About.resources

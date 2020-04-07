@@ -92,6 +92,7 @@
             // 
             resources.ApplyResources(this.main關於, "main關於");
             this.main關於.Name = "main關於";
+            this.main關於.Click += new System.EventHandler(this.main關於_Click);
             // 
             // Minecraft指令生成器
             // 

@@ -31,5 +31,12 @@ namespace MinecraftCommandGenerator
         {
             this.Close();
         }
+
+        private void main關於_Click(object sender, EventArgs e)
+        {
+            About about = new About();
+            about.Show();
+            this.WindowState = FormWindowState.Minimized;
+        }
     }
 }

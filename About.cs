@@ -16,5 +16,18 @@ namespace MinecraftCommandGenerator
         {
             InitializeComponent();
         }
+
+        private void 關閉視窗ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            Minecraft指令生成器 main = new Minecraft指令生成器();
+            main.WindowState = FormWindowState.Normal;
+            Application.Restore;
+        }
+
+        private void 選項ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("選項功能製作中", "提示");
+        }
     }
 }
