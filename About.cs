@@ -17,9 +17,8 @@ namespace MinecraftCommandGenerator
             InitializeComponent();
         }
 
-        private void 關閉視窗ToolStripMenuItem_Click(object sender, EventArgs e)
+        private void 開啟主選單ToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            this.Close();
             Menu menu = new Menu();
             menu.Show();
         }
@@ -27,6 +26,22 @@ namespace MinecraftCommandGenerator
         private void 選項ToolStripMenuItem_Click(object sender, EventArgs e)
         {
             MessageBox.Show("選項功能製作中", "提示");
+        }
+
+        private void 關閉視窗ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void AboutThankLink_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://www.facebook.com/RenaWevin/");
+        }
+
+        private void About_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Menu menu = new Menu();
+            menu.Show();
         }
     }
 }

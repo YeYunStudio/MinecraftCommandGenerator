@@ -35,6 +35,7 @@
             // NowLoadinng
             // 
             resources.ApplyResources(this.NowLoadinng, "NowLoadinng");
+            this.NowLoadinng.ForeColor = System.Drawing.Color.Orange;
             this.NowLoadinng.Name = "NowLoadinng";
             this.NowLoadinng.UseWaitCursor = true;
             // 

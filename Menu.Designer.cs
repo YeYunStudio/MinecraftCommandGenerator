@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Menu));
-            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.Menumenu = new System.Windows.Forms.MenuStrip();
             this.功能ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menu開啟主選單 = new System.Windows.Forms.ToolStripMenuItem();
             this.menu選項 = new System.Windows.Forms.ToolStripMenuItem();
@@ -37,21 +37,21 @@
             this.menu關閉 = new System.Windows.Forms.ToolStripMenuItem();
             this.工具ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.關於ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.menuStrip1.SuspendLayout();
+            this.Menumenu.SuspendLayout();
             this.SuspendLayout();
             // 
-            // menuStrip1
+            // Menumenu
             // 
-            this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
-            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.Menumenu.ImageScalingSize = new System.Drawing.Size(20, 20);
+            this.Menumenu.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.功能ToolStripMenuItem,
             this.工具ToolStripMenuItem,
             this.關於ToolStripMenuItem});
-            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
-            this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(582, 30);
-            this.menuStrip1.TabIndex = 0;
-            this.menuStrip1.Text = "menuStrip1";
+            this.Menumenu.Location = new System.Drawing.Point(0, 0);
+            this.Menumenu.Name = "Menumenu";
+            this.Menumenu.Size = new System.Drawing.Size(582, 27);
+            this.Menumenu.TabIndex = 0;
+            this.Menumenu.Text = "Menumenu";
             // 
             // 功能ToolStripMenuItem
             // 
@@ -61,7 +61,7 @@
             this.menu分隔線,
             this.menu關閉});
             this.功能ToolStripMenuItem.Name = "功能ToolStripMenuItem";
-            this.功能ToolStripMenuItem.Size = new System.Drawing.Size(53, 26);
+            this.功能ToolStripMenuItem.Size = new System.Drawing.Size(53, 23);
             this.功能ToolStripMenuItem.Text = "功能";
             // 
             // menu開啟主選單
@@ -101,13 +101,13 @@
             // 工具ToolStripMenuItem
             // 
             this.工具ToolStripMenuItem.Name = "工具ToolStripMenuItem";
-            this.工具ToolStripMenuItem.Size = new System.Drawing.Size(53, 26);
+            this.工具ToolStripMenuItem.Size = new System.Drawing.Size(53, 23);
             this.工具ToolStripMenuItem.Text = "工具";
             // 
             // 關於ToolStripMenuItem
             // 
             this.關於ToolStripMenuItem.Name = "關於ToolStripMenuItem";
-            this.關於ToolStripMenuItem.Size = new System.Drawing.Size(53, 26);
+            this.關於ToolStripMenuItem.Size = new System.Drawing.Size(53, 23);
             this.關於ToolStripMenuItem.Text = "關於";
             this.關於ToolStripMenuItem.Click += new System.EventHandler(this.關於ToolStripMenuItem_Click);
             // 
@@ -116,13 +116,15 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(582, 553);
-            this.Controls.Add(this.menuStrip1);
+            this.Controls.Add(this.Menumenu);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.MainMenuStrip = this.menuStrip1;
+            this.MainMenuStrip = this.Menumenu;
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "Menu";
             this.Text = "Menu";
-            this.menuStrip1.ResumeLayout(false);
-            this.menuStrip1.PerformLayout();
+            this.Menumenu.ResumeLayout(false);
+            this.Menumenu.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -130,7 +132,7 @@
 
         #endregion
 
-        private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.MenuStrip Menumenu;
         private System.Windows.Forms.ToolStripMenuItem 功能ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem 工具ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem 關於ToolStripMenuItem;

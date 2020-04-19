@@ -20,7 +20,7 @@ namespace MinecraftCommandGenerator
 
         private void Minecraft指令生成器_Load(object sender, EventArgs e)
         {
-            
+            NowLoadinng.Show();
         }
 
         private void Minecraft指令生成器_Shown(object sender, EventArgs e)
