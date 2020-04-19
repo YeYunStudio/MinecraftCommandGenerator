@@ -22,7 +22,6 @@ namespace MinecraftCommandGenerator
             this.Close();
             Minecraft指令生成器 main = new Minecraft指令生成器();
             main.WindowState = FormWindowState.Normal;
-            Application.Restore;
         }
 
         private void 選項ToolStripMenuItem_Click(object sender, EventArgs e)

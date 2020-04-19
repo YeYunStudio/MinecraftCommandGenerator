@@ -36,7 +36,8 @@ namespace MinecraftCommandGenerator
         {
             About about = new About();
             about.Show();
-            this.WindowState = FormWindowState.Minimized;
+            //this.WindowState = FormWindowState.Minimized;
+            //this.Close();
         }
     }
 }

@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Minecraft指令生成器));
-            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.main功能表 = new System.Windows.Forms.MenuStrip();
             this.main功能 = new System.Windows.Forms.ToolStripMenuItem();
             this.main開啟主選單 = new System.Windows.Forms.ToolStripMenuItem();
             this.main選項 = new System.Windows.Forms.ToolStripMenuItem();
@@ -37,18 +37,18 @@
             this.main關閉 = new System.Windows.Forms.ToolStripMenuItem();
             this.main工具 = new System.Windows.Forms.ToolStripMenuItem();
             this.main關於 = new System.Windows.Forms.ToolStripMenuItem();
-            this.menuStrip1.SuspendLayout();
+            this.main功能表.SuspendLayout();
             this.SuspendLayout();
             // 
-            // menuStrip1
+            // main功能表
             // 
-            resources.ApplyResources(this.menuStrip1, "menuStrip1");
-            this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
-            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            resources.ApplyResources(this.main功能表, "main功能表");
+            this.main功能表.ImageScalingSize = new System.Drawing.Size(20, 20);
+            this.main功能表.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.main功能,
             this.main工具,
             this.main關於});
-            this.menuStrip1.Name = "menuStrip1";
+            this.main功能表.Name = "main功能表";
             // 
             // main功能
             // 
@@ -98,13 +98,13 @@
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.menuStrip1);
-            this.MainMenuStrip = this.menuStrip1;
+            this.Controls.Add(this.main功能表);
+            this.MainMenuStrip = this.main功能表;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "Minecraft指令生成器";
-            this.menuStrip1.ResumeLayout(false);
-            this.menuStrip1.PerformLayout();
+            this.main功能表.ResumeLayout(false);
+            this.main功能表.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -112,7 +112,7 @@
 
         #endregion
 
-        private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.MenuStrip main功能表;
         private System.Windows.Forms.ToolStripMenuItem main功能;
         private System.Windows.Forms.ToolStripMenuItem main工具;
         private System.Windows.Forms.ToolStripMenuItem main開啟主選單;
