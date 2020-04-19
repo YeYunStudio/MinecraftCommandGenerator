@@ -1,6 +1,6 @@
 ﻿namespace MinecraftCommandGenerator
 {
-    partial class About
+    partial class Menu
     {
         /// <summary>
         /// Required designer variable.
@@ -28,13 +28,13 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(About));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Menu));
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.功能ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.開啟主選單ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.選項ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
-            this.關閉視窗ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.menu開啟主選單 = new System.Windows.Forms.ToolStripMenuItem();
+            this.menu選項 = new System.Windows.Forms.ToolStripMenuItem();
+            this.menu分隔線 = new System.Windows.Forms.ToolStripSeparator();
+            this.menu關閉 = new System.Windows.Forms.ToolStripMenuItem();
             this.工具ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.關於ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
@@ -49,73 +49,78 @@
             this.關於ToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(782, 27);
+            this.menuStrip1.Size = new System.Drawing.Size(582, 30);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
             // 功能ToolStripMenuItem
             // 
             this.功能ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.開啟主選單ToolStripMenuItem,
-            this.選項ToolStripMenuItem,
-            this.toolStripSeparator1,
-            this.關閉視窗ToolStripMenuItem});
+            this.menu開啟主選單,
+            this.menu選項,
+            this.menu分隔線,
+            this.menu關閉});
             this.功能ToolStripMenuItem.Name = "功能ToolStripMenuItem";
-            this.功能ToolStripMenuItem.Size = new System.Drawing.Size(53, 23);
+            this.功能ToolStripMenuItem.Size = new System.Drawing.Size(53, 26);
             this.功能ToolStripMenuItem.Text = "功能";
             // 
-            // 開啟主選單ToolStripMenuItem
+            // menu開啟主選單
             // 
-            this.開啟主選單ToolStripMenuItem.Name = "開啟主選單ToolStripMenuItem";
-            this.開啟主選單ToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.E)));
-            this.開啟主選單ToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
-            this.開啟主選單ToolStripMenuItem.Text = "開啟主選單";
+            this.menu開啟主選單.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
+            this.menu開啟主選單.Enabled = false;
+            this.menu開啟主選單.Name = "menu開啟主選單";
+            this.menu開啟主選單.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.E)));
+            this.menu開啟主選單.Size = new System.Drawing.Size(220, 26);
+            this.menu開啟主選單.Text = "開啟主選單";
+            this.menu開啟主選單.Click += new System.EventHandler(this.menu開啟主選單_Click);
             // 
-            // 選項ToolStripMenuItem
+            // menu選項
             // 
-            this.選項ToolStripMenuItem.Name = "選項ToolStripMenuItem";
-            this.選項ToolStripMenuItem.ShortcutKeyDisplayString = "Ctrl+,";
-            this.選項ToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Oemcomma)));
-            this.選項ToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
-            this.選項ToolStripMenuItem.Text = "選項";
-            this.選項ToolStripMenuItem.Click += new System.EventHandler(this.選項ToolStripMenuItem_Click);
+            this.menu選項.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
+            this.menu選項.Name = "menu選項";
+            this.menu選項.ShortcutKeyDisplayString = "Ctrl+,";
+            this.menu選項.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Oemcomma)));
+            this.menu選項.Size = new System.Drawing.Size(220, 26);
+            this.menu選項.Text = "選項";
+            this.menu選項.Click += new System.EventHandler(this.menu選項_Click);
             // 
-            // toolStripSeparator1
+            // menu分隔線
             // 
-            this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(221, 6);
+            this.menu分隔線.Name = "menu分隔線";
+            this.menu分隔線.Size = new System.Drawing.Size(217, 6);
             // 
-            // 關閉視窗ToolStripMenuItem
+            // menu關閉
             // 
-            this.關閉視窗ToolStripMenuItem.Name = "關閉視窗ToolStripMenuItem";
-            this.關閉視窗ToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.X)));
-            this.關閉視窗ToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
-            this.關閉視窗ToolStripMenuItem.Text = "關閉視窗";
-            this.關閉視窗ToolStripMenuItem.Click += new System.EventHandler(this.關閉視窗ToolStripMenuItem_Click);
+            this.menu關閉.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
+            this.menu關閉.Name = "menu關閉";
+            this.menu關閉.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.X)));
+            this.menu關閉.Size = new System.Drawing.Size(220, 26);
+            this.menu關閉.Text = "關閉";
+            this.menu關閉.Click += new System.EventHandler(this.menu關閉_Click);
             // 
             // 工具ToolStripMenuItem
             // 
             this.工具ToolStripMenuItem.Name = "工具ToolStripMenuItem";
-            this.工具ToolStripMenuItem.Size = new System.Drawing.Size(53, 23);
+            this.工具ToolStripMenuItem.Size = new System.Drawing.Size(53, 26);
             this.工具ToolStripMenuItem.Text = "工具";
             // 
             // 關於ToolStripMenuItem
             // 
-            this.關於ToolStripMenuItem.Enabled = false;
             this.關於ToolStripMenuItem.Name = "關於ToolStripMenuItem";
-            this.關於ToolStripMenuItem.Size = new System.Drawing.Size(53, 23);
+            this.關於ToolStripMenuItem.Size = new System.Drawing.Size(53, 26);
             this.關於ToolStripMenuItem.Text = "關於";
+            this.關於ToolStripMenuItem.Click += new System.EventHandler(this.關於ToolStripMenuItem_Click);
             // 
-            // About
+            // Menu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(782, 753);
+            this.ClientSize = new System.Drawing.Size(582, 553);
             this.Controls.Add(this.menuStrip1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip1;
-            this.Name = "About";
-            this.Text = "About";
+            this.Name = "Menu";
+            this.Text = "Menu";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
@@ -129,9 +134,9 @@
         private System.Windows.Forms.ToolStripMenuItem 功能ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem 工具ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem 關於ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem 開啟主選單ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem 選項ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
-        private System.Windows.Forms.ToolStripMenuItem 關閉視窗ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem menu開啟主選單;
+        private System.Windows.Forms.ToolStripMenuItem menu選項;
+        private System.Windows.Forms.ToolStripSeparator menu分隔線;
+        private System.Windows.Forms.ToolStripMenuItem menu關閉;
     }
 }
